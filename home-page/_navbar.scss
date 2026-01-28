@@ -1,0 +1,57 @@
+body {
+  background-color: #014e56;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar__container,
+.navbar__list {
+  @include display();
+
+  .navbar__list {
+    gap: 70px;
+  }
+
+  .navbar__item {
+    /* home */
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+  }
+
+  .navbar__link:hover {
+    color: #f67;
+    transition: all 1s ease;
+  }
+
+  .navbar__btn {
+    width: 153px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+    background-color: transparent;
+    transition: all 1s ease;
+  }
+
+  .navbar__btn:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+  }
+}

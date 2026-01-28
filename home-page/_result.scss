@@ -1,0 +1,61 @@
+.result {
+  background-color: #0b4f4f;
+  padding: 80px 0;
+  color: #ffffff;
+
+  .result__container {
+    @include display;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .result__title {
+    width: 936px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+
+    color: #ffffff;
+
+    span {
+      color: #79e2c7;
+    }
+  }
+
+  .result__cards {
+    @include display;
+    gap: 50px;
+  }
+
+  .result__card {
+    @include display;
+    flex-direction: column;
+    width: 320px;
+    margin: 30px 0;
+  }
+
+  .result__text {
+    @include text-style;
+    width: 350px;
+  }
+
+  .result__result {
+    @include text-style;
+    color: #79e2c7;
+    margin: 20px 0;
+  }
+
+  .result__result-2 {
+    @include text-style;
+  }
+
+  .result__img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+  }
+}

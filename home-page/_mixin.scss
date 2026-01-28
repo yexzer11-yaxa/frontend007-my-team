@@ -1,0 +1,17 @@
+@mixin display() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin text-style() {
+  width: 432px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+}

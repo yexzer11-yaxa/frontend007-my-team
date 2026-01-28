@@ -1,0 +1,29 @@
+.some {
+  width: 100%;
+  background-color: #012f34;
+  height: 430px;
+
+  .some__container {
+    @include display;
+    flex-direction: column;
+  }
+
+  .some__title {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 150px;
+  }
+
+  .some__images {
+    @include display;
+    gap: 90px;
+    margin-top: 80px;
+  }
+}

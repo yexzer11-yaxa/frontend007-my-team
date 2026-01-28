@@ -1,0 +1,72 @@
+.meet {
+  background-color: #004047;
+  padding: 140px 0;
+
+  .meet__title {
+    margin-bottom: 64px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .meet__cards {
+    @include display;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+
+  .meet__card {
+    background-color: #012f34;
+    width: 350px;
+    height: 281px;
+    text-align: center;
+    position: relative;
+
+    .meet__card-last {
+      background-color: #002529;
+    }
+
+    .meet__img {
+      width: 96px;
+      height: 96px;
+      margin: 10px 0;
+    }
+
+    .meet__bio {
+      @include text-style;
+      width: 350px;
+      color: #79c8c7;
+      margin: 30px 0;
+
+      span {
+        @include text-style;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: italic;
+      }
+    }
+
+    .meet__plus {
+      position: absolute;
+      bottom: -28px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 56px;
+      height: 56px;
+      cursor: pointer;
+    }
+  }
+
+  .meet__bio-text {
+    @include text-style;
+    font-size: 16px;
+    width: 254px;
+    margin: 20px 40px;
+  }
+}

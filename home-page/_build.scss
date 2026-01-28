@@ -1,0 +1,62 @@
+.build {
+  width: 100%;
+  margin-top: 150px;
+  background-color: #012f34;
+  height: 685px;
+
+  .build__container {
+    @include display();
+  }
+
+  .build__left {
+    @include display();
+    flex-direction: column;
+  }
+
+  .build__hr {
+    align-self: start;
+    width: 50px;
+    height: 4px;
+    background: #f67;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .build__title {
+    width: 445px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .build__right {
+    @include display();
+    flex-direction: column;
+    margin-top: 270px;
+  }
+
+  .build__card {
+    @include display();
+  }
+
+  .build__hero {
+    margin: 0 20px;
+  }
+
+  .build__card-title {
+    @include text-style();
+    color: #f67e7e;
+  }
+
+  .build__card-text {
+    @include text-style;
+    width: 480px;
+    margin: 20px 0;
+  }
+}

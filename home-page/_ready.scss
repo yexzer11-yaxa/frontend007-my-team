@@ -1,0 +1,46 @@
+.ready {
+  width: 100%;
+  background-color: #f67e7e;
+  height: 200px;
+
+  .ready__container {
+    @include display;
+    justify-content: space-around;
+  }
+
+  .ready__title {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+
+    color: #012f34;
+    margin-top: 70px;
+  }
+
+  .ready__btn {
+    width: 152px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #012f34;
+    border-radius: 24px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #012f34;
+    background-color: transparent;
+    margin-top: 70px;
+    transition: all 1s ease;
+  }
+
+  .ready__btn:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+  }
+}

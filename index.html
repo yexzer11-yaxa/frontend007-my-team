@@ -9,8 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normolize.css " />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>My Team ( home page )</title>
+    <title>MyTeam ( home - page )</title>
   </head>
   <body>
     <header class="header">
@@ -21,78 +22,80 @@
             <a href="#" class="navbar__link">home</a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">about</a>
+            <a href="./pages/about.html" class="navbar__link">about</a>
           </li>
         </ul>
 
-        <button class="navbar__btn">contact us</button>
+        <button class="navbar__btn">
+          <a href="./pages/contact.html" class="navbar__link">contact us</a>
+        </button>
       </nav>
     </header>
 
     <main class="main">
-      <section class="talent">
-        <div class="talent__container container">
-          <div class="talent__left">
-            <h1 class="talent__title">Find the best <span>talent</span></h1>
+      <section class="intro">
+        <div class="intro__container container">
+          <div class="intro__left">
+            <h1 class="intro__title">Find the best <span>intro</span></h1>
           </div>
-          <div class="talent__right">
-            <hr class="talent__hr" />
-            <p class="talent__text">
+          <div class="intro__right">
+            <hr class="intro__hr" />
+            <p class="intro__text">
               Finding the right people and building high performing teams can be
               hard. Most companies aren’t tapping into the abundance of global
-              talent. We’re about to change that.
+              intro. We’re about to change that.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="team">
-        <div class="team__container container">
-          <div class="team__left">
-            <hr class="team__hr" />
-            <h2 class="team__title">
-              Build & manage distributed teams like no one else.
+      <section class="build">
+        <div class="build__container container">
+          <div class="build__left">
+            <hr class="build__hr" />
+            <h2 class="build__title">
+              Build & manage distributed builds like no one else.
             </h2>
           </div>
 
-          <div class="team__right">
-            <div class="team__cards">
-              <div class="team__card">
+          <div class="build__right">
+            <div class="build__cards">
+              <div class="build__card">
                 <img
                   src="./images/individuals.png "
                   alt="Image"
-                  class="team__hero"
+                  class="build__hero"
                 />
 
-                <div class="team__card-content">
-                  <p class="team__card-title">Experienced Individuals</p>
-                  <p class="team__card-text">
+                <div class="build__card-content">
+                  <p class="build__card-title">Experienced Individuals</p>
+                  <p class="build__card-text">
                     Our network is made up of highly experienced professionals
                     who are passionate about what they do.
                   </p>
                 </div>
               </div>
-              <div class="team__card">
+              <div class="build__card">
                 <img
                   src="./images/implememnt.png"
                   alt="Image"
-                  class="team__hero"
+                  class="build__hero"
                 />
-                <div class="team__content">
-                  <p class="team__card-title">Easy to Implement</p>
-                  <p class="team__card-text">
+                <div class="build__content">
+                  <p class="build__card-title">Easy to Implement</p>
+                  <p class="build__card-text">
                     Our processes have been refined over years of implementation
-                    meaning our teams always deliver.
+                    meaning our builds always deliver.
                   </p>
                 </div>
               </div>
-              <div class="team__card">
-                <img src="./images/enhance.png" alt="Man" class="team__hero" />
-                <div class="team__content">
-                  <p class="team__card-title">Enhanced Productivity</p>
-                  <p class="team__card-text">
+              <div class="build__card">
+                <img src="./images/enhance.png" alt="Man" class="build__hero" />
+                <div class="build__content">
+                  <p class="build__card-title">Enhanced Productivity</p>
+                  <p class="build__card-text">
                     Our customized platform with in-built analytics helps you
-                    manage your distributed teams.
+                    manage your distributed builds.
                   </p>
                 </div>
               </div>
@@ -101,49 +104,61 @@
         </div>
       </section>
 
-      <section class="bio">
-        <div class="bio__container container">
-          <h2 class="bio__title">
+      <section class="result">
+        <div class="result__container container">
+          <h2 class="result__title">
             Delivering real results for top companies. Some of our
             <span>success stories.</span>
           </h2>
 
-          <div class="bio__cards">
-            <div class="bio__card">
-              <p class="bio__text">
+          <div class="result__cards">
+            <div class="result__card">
+              <p class="result__text">
                 “The team perfectly fit the specialized skill set required. They
                 focused on the most essential features helping us launch the
                 platform eight months faster than planned.”
               </p>
-              <p class="bio__bio">Kady Baker</p>
+              <p class="result__result">Kady Baker</p>
               <br />
               <br />
-              <p class="bio__bio-2">Product Manager at Bookmark</p>
-              <img src="./images/Oval@2x.png" alt="Bio img" class="bio__img" />
+              <p class="result__result-2">Product Manager at Bookmark</p>
+              <img
+                src="./images/Oval@2x.png"
+                alt="result img"
+                class="result__img"
+              />
             </div>
-            <div class="bio__card">
-              <p class="bio__text">
+            <div class="result__card">
+              <p class="result__text">
                 “We needed to automate our entire onboarding process. The team
                 came in and built out the whole journey. Since going live, user
                 retention has gone through the roof!”
               </p>
-              <p class="bio__bio">Aiysha Reese</p>
+              <p class="result__result">Aiysha Reese</p>
               <br />
               <br />
-              <p class="bio__bio-2">Founder of Manage</p>
-              <img src="./images/person.png" alt="Bio img" class="bio__img" />
+              <p class="result__result-2">Founder of Manage</p>
+              <img
+                src="./images/person.png"
+                alt="result img"
+                class="result__img"
+              />
             </div>
-            <div class="bio__card">
-              <p class="bio__text">
+            <div class="result__card">
+              <p class="result__text">
                 “Amazing. Our team helped us build an app that delivered a new
                 experience for hiring a physio. The launch was an instant
                 success with 100k downloads in the first month.”
               </p>
-              <p class="bio__bio">Arthur Clarke</p>
+              <p class="result__result">Arthur Clarke</p>
               <br />
               <br />
-              <p class="bio__bio-2">Co-founder of MyPhysio</p>
-              <img src="./images/amaki.png" alt="Bio img" class="bio__img" />
+              <p class="result__result-2">Co-founder of MyPhysio</p>
+              <img
+                src="./images/amaki.png"
+                alt="result img"
+                class="result__img"
+              />
             </div>
           </div>
         </div>
@@ -166,7 +181,7 @@
             />
             <nav class="footer__nav">
               <a href="#" class="footer__link">home</a>
-              <a href="#" class="footer__link">about</a>
+              <a href="./pages/about.html" class="footer__link">about</a>
             </nav>
           </div>
 
@@ -179,9 +194,13 @@
 
           <div class="footer__info">
             <div class="footer__socials">
-              <a href="#"><img src="./images/facebook.svg" alt="fb" /></a>
-              <a href="#"><img src="./images/pintetres.svg" alt="pt" /></a>
-              <a href="#"><img src="./images/twitter.svg" alt="tw" /></a>
+              <img class="footer__icons" src="./images/facebook.svg" alt="fb" />
+              <img
+                class="footer__icons"
+                src="./images/pintetres.svg"
+                alt="pt"
+              />
+              <img class="footer__icons" src="./images/twitter.svg" alt="tw" />
             </div>
             <p class="footer__copyright">Copyright 2020. All Rights Reserved</p>
           </div>

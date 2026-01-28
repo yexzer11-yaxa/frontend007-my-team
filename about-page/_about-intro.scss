@@ -1,0 +1,41 @@
+.about-intro {
+  width: 100%;
+
+  .about-intro__container {
+    @include display;
+    margin-top: 150px;
+    height: 320px;
+  }
+
+  .about-intro__title {
+    align-self: start;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+  }
+
+  .about-intro__right {
+    @include display;
+    flex-direction: column;
+  }
+
+  .about-intro__hr {
+    align-self: start;
+    width: 50px;
+    height: 4px;
+    border: none;
+    background-color: #f67;
+    border-radius: 10px;
+  }
+
+  .about-intro__text {
+    @include text-style;
+    width: 730px;
+    margin: 50px 0;
+  }
+}
